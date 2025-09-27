@@ -10,7 +10,7 @@ import tsParser from '@typescript-eslint/parser'
 
 export default [
   {
-    ignores: ['dist', 'storybook-static', 'coverage', '**/*.config.*'],
+    ignores: ['dist', 'storybook-static', 'coverage', '**/*.config.*', 'src/reference/**'],
   },
   {
     files: ['**/*.{ts,tsx}'],
